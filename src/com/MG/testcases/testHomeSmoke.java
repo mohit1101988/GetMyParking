@@ -53,7 +53,7 @@ public static AndroidDriver driver;
 				//Purpose: launch and exit app and take screenshot of app launch
 
 				//Check if app launch is successful
-				System.out.println("TestCase 1: Check app launch");
+				System.out.println("TestCase 1: Check app launch ");
 				List<WebElement> launch = driver.findElements(By.id("com.gmpuser.app:id/tv_login_tabstrip"));
 				if (launch.size() >= 1) {
 					System.out.println("App launch successful");
