@@ -15,9 +15,9 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
-import com.w2a.util.DbManager;
-import com.w2a.util.ExcelReader;
-import com.w2a.util.monitoringMail;
+import com.MG.util.DbManager;
+import com.MG.util.ExcelReader;
+import com.MG.util.monitoringMail;
 
 public class TestBase {
 	

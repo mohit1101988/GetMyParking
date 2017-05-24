@@ -2,52 +2,52 @@
 <testng-results skipped="0" failed="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39669" started-at="2015-09-26T13:23:13Z" finished-at="2015-09-26T13:23:53Z">
+  <suite name="Default suite" duration-ms="108893" started-at="2017-05-24T15:44:56Z" finished-at="2017-05-24T15:46:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39669" started-at="2015-09-26T13:23:13Z" finished-at="2015-09-26T13:23:53Z">
+    <test name="Default test" duration-ms="108893" started-at="2017-05-24T15:44:56Z" finished-at="2017-05-24T15:46:45Z">
       <class name="com.MG.testcases.testHomeSmoke">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.MG.testcases.testHomeSmoke@13b6d03]" name="setUp" is-config="true" duration-ms="7376" started-at="2015-09-26T18:53:13Z" finished-at="2015-09-26T18:53:20Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.MG.testcases.testHomeSmoke@2cfb4a64]" name="setUp" is-config="true" duration-ms="8866" started-at="2017-05-24T21:14:56Z" finished-at="2017-05-24T21:15:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tchome01()[pri:0, instance:com.MG.testcases.testHomeSmoke@13b6d03]" name="tchome01" duration-ms="4176" started-at="2015-09-26T18:53:20Z" finished-at="2015-09-26T18:53:24Z">
+        <test-method status="PASS" signature="tchome01()[pri:0, instance:com.MG.testcases.testHomeSmoke@2cfb4a64]" name="tchome01" duration-ms="7175" started-at="2017-05-24T21:15:05Z" finished-at="2017-05-24T21:15:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tchome01 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MG.testcases.testHomeSmoke@13b6d03]" name="tearDown" is-config="true" duration-ms="983" started-at="2015-09-26T18:53:24Z" finished-at="2015-09-26T18:53:25Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MG.testcases.testHomeSmoke@2cfb4a64]" name="tearDown" is-config="true" duration-ms="1611" started-at="2017-05-24T21:15:13Z" finished-at="2017-05-24T21:15:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.MG.testcases.testHomeSmoke@13b6d03]" name="setUp" is-config="true" duration-ms="4627" started-at="2015-09-26T18:53:25Z" finished-at="2015-09-26T18:53:30Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.MG.testcases.testHomeSmoke@2cfb4a64]" name="setUp" is-config="true" duration-ms="7783" started-at="2017-05-24T21:15:14Z" finished-at="2017-05-24T21:15:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tchome02()[pri:0, instance:com.MG.testcases.testHomeSmoke@13b6d03]" name="tchome02" duration-ms="6519" started-at="2015-09-26T18:53:30Z" finished-at="2015-09-26T18:53:37Z">
+        <test-method status="PASS" signature="tchome02()[pri:0, instance:com.MG.testcases.testHomeSmoke@2cfb4a64]" name="tchome02" duration-ms="42247" started-at="2017-05-24T21:15:22Z" finished-at="2017-05-24T21:16:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tchome02 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MG.testcases.testHomeSmoke@13b6d03]" name="tearDown" is-config="true" duration-ms="872" started-at="2015-09-26T18:53:37Z" finished-at="2015-09-26T18:53:37Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MG.testcases.testHomeSmoke@2cfb4a64]" name="tearDown" is-config="true" duration-ms="1703" started-at="2017-05-24T21:16:04Z" finished-at="2017-05-24T21:16:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.MG.testcases.testHomeSmoke@13b6d03]" name="setUp" is-config="true" duration-ms="4258" started-at="2015-09-26T18:53:37Z" finished-at="2015-09-26T18:53:42Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.MG.testcases.testHomeSmoke@2cfb4a64]" name="setUp" is-config="true" duration-ms="8072" started-at="2017-05-24T21:16:06Z" finished-at="2017-05-24T21:16:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="tchome03()[pri:0, instance:com.MG.testcases.testHomeSmoke@13b6d03]" name="tchome03" duration-ms="9947" started-at="2015-09-26T18:53:42Z" finished-at="2015-09-26T18:53:52Z">
+        <test-method status="FAIL" signature="tchome03()[pri:0, instance:com.MG.testcases.testHomeSmoke@2cfb4a64]" name="tchome03" duration-ms="29937" started-at="2017-05-24T21:16:14Z" finished-at="2017-05-24T21:16:44Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [v1.4.1] but found [Version hackathon]]]>
+              <![CDATA[expected [VALET] but found [VALEET]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [v1.4.1] but found [Version hackathon]
+              <![CDATA[java.lang.AssertionError: expected [VALET] but found [VALEET]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:496)
 	at org.testng.Assert.assertEquals(Assert.java:125)
 	at org.testng.Assert.assertEquals(Assert.java:178)
 	at org.testng.Assert.assertEquals(Assert.java:188)
-	at com.MG.testcases.testHomeSmoke.tchome03(testHomeSmoke.java:96)
+	at com.MG.testcases.testHomeSmoke.tchome03(testHomeSmoke.java:147)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -78,7 +78,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tchome03 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MG.testcases.testHomeSmoke@13b6d03]" name="tearDown" is-config="true" duration-ms="887" started-at="2015-09-26T18:53:52Z" finished-at="2015-09-26T18:53:53Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MG.testcases.testHomeSmoke@2cfb4a64]" name="tearDown" is-config="true" duration-ms="1479" started-at="2017-05-24T21:16:44Z" finished-at="2017-05-24T21:16:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
