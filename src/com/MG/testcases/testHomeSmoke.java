@@ -133,8 +133,8 @@ public static AndroidDriver driver;
 		WebElement bar1 = driver.findElement(By.id("com.gmpuser.app:id/rv_filters"));
 		List<WebElement> bar2 = bar1.findElements(By.className("android.widget.LinearLayout"));		
 		
-		String ExpectedList[] = {"CAR","BIKE","VALEET"};
-		String[] ActualList = new String[3];
+		String ExpectedList[] = {"CAR","BIKE","VALET","AUTO_PREMIUM"};
+		String[] ActualList = new String[4];
 
 		for (int i = 0; i < bar2.size(); i++) {
 		//	System.out.println(bar2.get(i).findElement(By.id("com.gmpuser.app:id/tv_sublot_name")).getText());
