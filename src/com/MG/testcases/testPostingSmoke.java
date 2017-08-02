@@ -21,6 +21,7 @@ import io.appium.java_client.android.AndroidKeyCode;
 public class testPostingSmoke {
 	
 	asdqweqw
+	qweaasda
 	/*
 	 * abc
 	 * def
