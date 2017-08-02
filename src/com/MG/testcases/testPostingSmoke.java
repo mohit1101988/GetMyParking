@@ -19,6 +19,12 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidKeyCode;
 
 public class testPostingSmoke {
+	
+	asdqweqw
+	/*
+	 * abc
+	 * def
+	 * ghi*/
 
 	
 	
